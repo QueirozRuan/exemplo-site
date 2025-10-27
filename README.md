@@ -42,7 +42,7 @@
   <a href="www.linkedin.com/in/ruan-queiroz-santos-540ab1379" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="queiroz.dev@gmail.com">
+  <a href="mailto:queiroz.dev@gmail.com">
     <img src="https://img.shields.io/badge/-Email-%23EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
