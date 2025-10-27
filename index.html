@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuro Neon Digital | A Vanguarda da Tecnologia</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+    <custom-navbar></custom-navbar>
+    
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="relative h-screen flex items-center justify-center overflow-hidden">
+            <div id="vanta-bg" class="absolute inset-0 z-0"></div>
+            <div class="container mx-auto px-6 z-10 text-center">
+                <h1 class="text-5xl md:text-7xl font-bold mb-6 font-orbitron text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500">
+                    <span id="typing-text"></span>
+                </h1>
+                <p class="text-xl md:text-2xl max-w-2xl mx-auto mb-10 text-gray-300">
+                    Explorando as fronteiras da inovação digital e transformando o futuro com tecnologia de ponta
+                </p>
+                <button class="px-8 py-3 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-full font-bold hover:scale-105 transition-transform shadow-lg shadow-cyan-500/30">
+                    Comece a Jornada
+                </button>
+            </div>
+            <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+                <i data-feather="chevron-down" class="text-cyan-400"></i>
+            </div>
+        </section>
+
+        <!-- Tech Sections -->
+        <section class="py-20 bg-gray-900">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center mb-16 font-orbitron text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500">
+                    Pilares da Inovação Digital
+                </h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- AI Card -->
+                    <div class="tech-card group" data-tech="ai">
+                        <div class="tech-card-icon">
+                            <i data-feather="cpu"></i>
+                        </div>
+                        <h3>Inteligência Artificial</h3>
+                        <p>Transformando dados em decisões inteligentes e automação avançada</p>
+                    </div>
+                    
+                    <!-- Cybersecurity Card -->
+                    <div class="tech-card group" data-tech="cyber">
+                        <div class="tech-card-icon">
+                            <i data-feather="shield"></i>
+                        </div>
+                        <h3>Cibersegurança</h3>
+                        <p>Protegendo seu futuro digital com soluções de última geração</p>
+                    </div>
+                    
+                    <!-- Cloud Card -->
+                    <div class="tech-card group" data-tech="cloud">
+                        <div class="tech-card-icon">
+                            <i data-feather="cloud"></i>
+                        </div>
+                        <h3>Computação em Nuvem</h3>
+                        <p>Infraestrutura escalável e flexível para qualquer necessidade</p>
+                    </div>
+                    
+                    <!-- Automation Card -->
+                    <div class="tech-card group" data-tech="automation">
+                        <div class="tech-card-icon">
+                            <i data-feather="refresh-cw"></i>
+                        </div>
+                        <h3>Automação</h3>
+                        <p>Otimizando processos e aumentando produtividade exponencialmente</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Preview -->
+        <section class="py-20 bg-gradient-to-b from-gray-900 to-gray-800">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center mb-16 font-orbitron text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500">
+                    Últimas Inovações
+                </h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Blog Post 1 -->
+                    <div class="blog-card">
+                        <div class="blog-card-image" style="background-image: url('http://static.photos/technology/640x360/1');"></div>
+                        <div class="blog-card-content">
+                            <span class="blog-card-category">IA Generativa</span>
+                            <h3>Como a IA está revolucionando a criação de conteúdo</h3>
+                            <p>Explorando as possibilidades infinitas dos modelos generativos modernos</p>
+                            <a href="#" class="read-more">Ler mais <i data-feather="arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- Blog Post 2 -->
+                    <div class="blog-card">
+                        <div class="blog-card-image" style="background-image: url('http://static.photos/aerial/640x360/2');"></div>
+                        <div class="blog-card-content">
+                            <span class="blog-card-category">Blockchain</span>
+                            <h3>O futuro dos contratos inteligentes em 2024</h3>
+                            <p>Como a tecnologia está transformando acordos digitais</p>
+                            <a href="#" class="read-more">Ler mais <i data-feather="arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- Blog Post 3 -->
+                    <div class="blog-card">
+                        <div class="blog-card-image" style="background-image: url('http://static.photos/workspace/640x360/3');"></div>
+                        <div class="blog-card-content">
+                            <span class="blog-card-category">Metaverso</span>
+                            <h3>Preparando sua empresa para o mundo virtual</h3>
+                            <p>Estratégias para a transição digital em ambientes imersivos</p>
+                            <a href="#" class="read-more">Ler mais <i data-feather="arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-12">
+                    <a href="#" class="inline-flex items-center px-6 py-3 border border-cyan-400 text-cyan-400 rounded-full hover:bg-cyan-400 hover:text-gray-900 transition-colors">
+                        Ver todos os artigos <i data-feather="arrow-right" class="ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="py-20 bg-gray-800">
+            <div class="container mx-auto px-6 max-w-4xl">
+                <h2 class="text-4xl font-bold text-center mb-16 font-orbitron text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500">
+                    Fale Conosco
+                </h2>
+                
+                <form id="contact-form" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" class="form-input" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" class="form-input" required>
+                    </div>
+                    
+                    <div class="form-group md:col-span-2">
+                        <label for="subject">Assunto</label>
+                        <input type="text" id="subject" class="form-input" required>
+                    </div>
+                    
+                    <div class="form-group md:col-span-2">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" rows="5" class="form-input" required></textarea>
+                    </div>
+                    
+                    <div class="md:col-span-2 text-center">
+                        <button type="submit" class="px-8 py-3 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-full font-bold hover:scale-105 transition-transform shadow-lg shadow-cyan-500/30 flex items-center mx-auto">
+                            Enviar Mensagem <i data-feather="send" class="ml-2"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Chatbot -->
+    <div id="chatbot" class="fixed bottom-8 right-8 z-50">
+        <button id="chatbot-toggle" class="w-16 h-16 rounded-full bg-gradient-to-br from-cyan-500 to-purple-600 flex items-center justify-center shadow-xl hover:shadow-2xl transition-all">
+            <i data-feather="message-square" class="text-white"></i>
+        </button>
+        <div id="chatbot-window" class="hidden absolute bottom-20 right-0 w-80 h-96 bg-gray-800 rounded-lg shadow-xl border border-cyan-400/30 overflow-hidden">
+            <div class="chatbot-header bg-gray-900 p-3 flex justify-between items-center border-b border-cyan-400/20">
+                <h3 class="font-bold text-cyan-400">Neon Assistente</h3>
+                <button id="chatbot-close" class="text-gray-400 hover:text-white">
+                    <i data-feather="x"></i>
+                </button>
+            </div>
+            <div id="chatbot-messages" class="p-4 h-64 overflow-y-auto">
+                <div class="chatbot-message received mb-4">
+                    <p>Olá! Sou o Neon Assistente. Como posso ajudar você hoje?</p>
+                </div>
+            </div>
+            <div class="chatbot-input p-3 border-t border-cyan-400/20">
+                <div class="flex">
+                    <input type="text" placeholder="Digite sua mensagem..." class="flex-grow bg-gray-700 rounded-l-lg px-3 py-2 text-white focus:outline-none focus:ring-1 focus:ring-cyan-400">
+                    <button class="bg-cyan-500 text-white rounded-r-lg px-3 hover:bg-cyan-600 transition-colors">
+                        <i data-feather="send" class="w-5 h-5"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <custom-footer></custom-footer>
+
+    <!-- Scripts -->
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+        
+        // Initialize Vanta.js
+        VANTA.NET({
+            el: "#vanta-bg",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0x00ffff,
+            backgroundColor: 0x0a0a0a,
+            points: 12.00,
+            maxDistance: 20.00,
+            spacing: 15.00
+        });
+    </script>
+</body>
+</html>
